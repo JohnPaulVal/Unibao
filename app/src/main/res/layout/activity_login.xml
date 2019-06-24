@@ -84,12 +84,13 @@
         android:layout_height="40dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
+        android:background="@drawable/button_social"
+        android:onClick="refresh"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/button3"
         app:layout_constraintStart_toStartOf="@+id/button3"
         app:layout_constraintTop_toBottomOf="@+id/button3"
-        app:srcCompat="@drawable/ic_launcher_foreground"
-        android:background="@drawable/button_social"/>
+        app:srcCompat="@android:drawable/ic_media_rew" />
 
     <ImageButton
         android:id="@+id/imageButton3"
@@ -101,13 +102,14 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
+        android:background="@drawable/button_social"
+        android:onClick="salir"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/button3"
         app:layout_constraintHorizontal_bias="0.45"
         app:layout_constraintStart_toEndOf="@+id/imageButton"
         app:layout_constraintTop_toBottomOf="@+id/button3"
-        app:srcCompat="@drawable/ic_launcher_foreground"
-        android:background="@drawable/button_social"/>
+        app:srcCompat="@android:drawable/btn_dialog" />
 
     <ImageButton
         android:id="@+id/imageButton2"
@@ -119,11 +121,12 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
+        android:background="@drawable/button_social"
+        android:onClick="pagina"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/imageButton"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="@+id/button3"
         app:layout_constraintTop_toBottomOf="@+id/button3"
-        app:srcCompat="@drawable/ic_launcher_foreground"
-        android:background="@drawable/button_social"/>
+        app:srcCompat="@android:drawable/ic_menu_view" />
 </android.support.constraint.ConstraintLayout>
