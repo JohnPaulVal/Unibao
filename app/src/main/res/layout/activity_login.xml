@@ -22,7 +22,7 @@
         app:srcCompat="@drawable/icono" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/cuenta"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_marginStart="32dp"
@@ -42,7 +42,7 @@
         android:textColorHint="#ffff"/>
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/pass"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_marginStart="32dp"
@@ -54,7 +54,7 @@
         android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText"
+        app:layout_constraintTop_toBottomOf="@+id/cuenta"
         android:backgroundTint="@color/colorAccent"
         android:textAlignment="center"
         android:hint="Password"
@@ -71,12 +71,11 @@
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
         android:background="@drawable/button_rounded_border"
-        android:onClick="entrar"
         android:text="Login"
         android:textColor="#ffff"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText2" />
+        app:layout_constraintTop_toBottomOf="@+id/pass" />
 
     <ImageButton
         android:id="@+id/imageButton"
